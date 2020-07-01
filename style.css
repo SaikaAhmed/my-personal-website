@@ -1,0 +1,168 @@
+nav {
+    background-color:white;
+    position: sticky;
+    top: 0;
+    }
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    float: right;
+    margin-right: 10px;
+}
+nav li a{
+    display: block;
+    color: black;;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 14px 20px;
+}
+li a:hover {
+    background-color: pink;
+}
+li a:active {
+    background-color: purple;
+    text-decoration: underline;
+}
+nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+   font-size: 40px;
+    color: deeppink;
+}
+
+.first {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.first img {
+    width: 100%;
+}
+.firstportion {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.button {
+    background-image: linear-gradient(45deg, hotpink, maroon);
+     text-decoration: none;
+     padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700; 
+ }
+.secondportion {
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+}
+.first h1 {
+    padding-top: 95px;
+}
+
+.galary a img {
+    width: 28%;
+    margin: 2%;
+}
+#project {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.head {
+    margin-bottom: 5%;
+}
+
+.latest::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.latest {
+    background-image: url("images/latest-work-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.skill-cards {
+    width: 100%;
+    text-align: justify;
+    height: 500px;
+    margin-left: 15%;
+}
+.card {
+    text-align: center;
+    height: 300px;
+    width: 30%;
+    box-shadow: 10px 10px 10px teal;
+    border-radius: 5px;
+    background-color: white;
+    margin: 50px;
+    float: left;
+}
+
+.skills::after {
+    content: "";
+    width: 90%;
+    margin: 5%;
+    display: block;
+    clear: both;
+}
+.last {
+    background-image: url(images/footer-bg.png);
+    background-position: left;
+    height: auto;
+    background-size: cover;
+}
+#me {
+    padding: 15px;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    border-left: 7px solid green;
+    border-right: 7px solid teal;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+.experi {
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 5px;
+        background-color: white;
+}
+
+.give {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(120deg, hotpink, maroon);
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    font-size: 10px;
+
+}
